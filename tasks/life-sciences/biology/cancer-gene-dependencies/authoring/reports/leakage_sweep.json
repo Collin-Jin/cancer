@@ -1,0 +1,19 @@
+{
+  "comparison": "Nearest-neighbour match of noised, training-standardized expression and copy-number profiles against the un-noised profiles. Mutations were left out of this sweep; the mutation-only grid is in calibration_summary.json.",
+  "lineage_mean_pearson": 0.270423524812562,
+  "clean_self_expression_mean_abs_pearson": 0.11959722576228667,
+  "rows": [
+    {"sigma": 0.0, "top1_rate": 1.0, "copied_mean_pearson": 1.0, "signal_retention": 1.0, "univariate_test_pearson": 0.107},
+    {"sigma": 1.0, "top1_rate": 1.0, "copied_mean_pearson": 1.0, "signal_retention": 0.728, "univariate_test_pearson": 0.073},
+    {"sigma": 2.0, "top1_rate": 1.0, "copied_mean_pearson": 1.0, "signal_retention": 0.506, "univariate_test_pearson": 0.040},
+    {"sigma": 3.0, "top1_rate": 0.996, "copied_mean_pearson": 0.997, "signal_retention": 0.401, "univariate_test_pearson": 0.026},
+    {"sigma": 5.0, "top1_rate": 0.937, "copied_mean_pearson": 0.943, "signal_retention": 0.314, "univariate_test_pearson": 0.012},
+    {"sigma": 8.0, "top1_rate": 0.487, "copied_mean_pearson": 0.508, "signal_retention": 0.269, "univariate_test_pearson": 0.006},
+    {"sigma": 12.0, "top1_rate": 0.178, "copied_mean_pearson": 0.207, "signal_retention": 0.246, "univariate_test_pearson": 0.000},
+    {"sigma": 16.0, "top1_rate": 0.078, "copied_mean_pearson": 0.098, "signal_retention": 0.236, "univariate_test_pearson": -0.001},
+    {"sigma": 24.0, "top1_rate": 0.037, "copied_mean_pearson": 0.053, "signal_retention": 0.229, "univariate_test_pearson": -0.002},
+    {"sigma": 32.0, "top1_rate": 0.026, "copied_mean_pearson": 0.038, "signal_retention": 0.226, "univariate_test_pearson": -0.002},
+    {"sigma": 48.0, "top1_rate": 0.022, "copied_mean_pearson": 0.028, "signal_retention": 0.224, "univariate_test_pearson": -0.004}
+  ],
+  "conclusion": "Copied public profiles remain more accurate than the lineage mean until the self-gene expression signal on the test lines has already fallen to about zero. No sigma on this grid satisfies the pre-registered attack rule and still leaves a useful molecular feature."
+}

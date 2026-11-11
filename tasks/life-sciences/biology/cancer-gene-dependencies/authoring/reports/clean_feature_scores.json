@@ -1,0 +1,15 @@
+{
+  "note": "Unperturbed training-standardized features. A nearest-neighbour copy of the public profile scores 1 on this representation, so these numbers are not a benchmark threshold. Gene-level expression and copy number were clipped to +/- 8 after standardization. Principal components were not clipped.",
+  "mean_per_gene_pearson": {
+    "lineage_mean": 0.270423524812562,
+    "neighbor": 0.3216412161234066,
+    "univariate": 0.2957225149385065,
+    "elastic_net": 0.37946275436667876,
+    "boosting": 0.374625479454196,
+    "reference": 0.3958124629624565
+  },
+  "reference_minus_elastic_net": 0.01634970859577774,
+  "normalized_S_against_lineage_reweighted_ceiling": 6.024,
+  "blend_weights": {"lineage": 0.0, "ridge": 1.0, "interaction": 0.0},
+  "public_profile_attack_mean_pearson": 1.0
+}

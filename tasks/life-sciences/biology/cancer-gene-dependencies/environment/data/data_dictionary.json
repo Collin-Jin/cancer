@@ -1,0 +1,22 @@
+{
+  "copy_number": "DepMap gene-level relative copy number, training-set standardized, then independent Gaussian noise.",
+  "damaging_mutation": "1 if DepMap calls a damaging somatic mutation, else 0.",
+  "expression": "log2(TPM + 1) protein-coding expression, training-set standardized, then independent Gaussian noise.",
+  "family_token": "Shared by training models from the same donor. Each test model is unique.",
+  "gaussian_noise_sd": 3.0,
+  "gene_effect_sign": "More negative means a stronger measured growth reduction after knockout.",
+  "gene_identifier": "HGNC symbol, a space, and the Entrez id in parentheses.",
+  "hotspot_mutation": "1 if DepMap calls a hotspot mutation, else 0.",
+  "mutation_flip_probability": 0.2,
+  "n_panel_genes": 417,
+  "n_test_lines": 269,
+  "n_train_lines": 834,
+  "principal_components": {
+    "copy_number": 16,
+    "expression": 32,
+    "high_variance_genes_considered": 2000,
+    "loadings_included": false
+  },
+  "source": "Derived from DepMap Public 24Q4 (CC BY 4.0). See DATA_ATTRIBUTION.txt.",
+  "test_line_fraction": 0.24388032638259294
+}

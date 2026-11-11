@@ -1,0 +1,5 @@
+{
+  "max_abs_prediction": 50.0,
+  "max_file_bytes": 50000000,
+  "min_mean_pearson": 0.35
+}
